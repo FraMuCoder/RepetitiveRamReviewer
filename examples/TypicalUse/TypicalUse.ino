@@ -43,9 +43,9 @@ void loop() {
   // Do your stuff here
   stuff();
 
-  // Meassue and dump every 2s
+  // Measure and dump every 2s
   rrr.loopAndDump(2000);
-  // Or meassue every 500ms but dump only on change
+  // Or measure every 500ms but dump only on change
   //rrr.loopAndDumpChanges(500);
 }
 

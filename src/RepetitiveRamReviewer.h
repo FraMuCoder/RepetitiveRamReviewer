@@ -12,6 +12,10 @@
 
 class RepetitiveRamReviewer {
   public:
+    /**
+     * Create an instance.
+     * @param  pattern  Byte pattern written in the gap between heap and stack.
+     */
     RepetitiveRamReviewer(uint8_t pattern = 0xA5);
 
     /** Prepare for messuring. */
